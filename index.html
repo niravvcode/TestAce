@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TestAce</title>
+</head>
+
+<body class="relative">
+    <!-- 🔵 Moves Diagonally (Up-Right & Down-Left) -->
+    <div class="fixed top-[0px] left-[150px] h-100 w-100 bg-cyan-100 -z-10 filter blur-sm opacity-90 rounded-full animate-[move-up-right_8s_infinite_ease-in-out]"></div>
+
+    <div class="fixed top-[-100px] left-[700px] h-100 w-100 bg-orange-100 -z-20 filter blur-sm opacity-90 rounded-full animate-[move-left-right_10s_infinite_ease-in-out] [animation-delay:1s]"></div>
+
+    <!-- 🟠 Moves Horizontally (Left to Right) -->
+    <div class="fixed bottom-[-50px] left-[-150px] h-100 w-100 bg-lime-50 -z-20 filter blur-sm opacity-90 rounded-full animate-[move-bottom-left-top-right_7s_infinite_ease-in-out] [animation-delay:1s]"></div>
+
+    <div class="fixed bottom-[-250px] left-[400px] h-100 w-100 bg-red-100 -z-20 filter blur-sm opacity-90 rounded-full animate-[move-circular_8s_infinite_ease-in-out] [animation-delay:0s]"></div>
+
+    <!-- 🟣 Moves Vertically (Up & Down) -->
+    <div class="fixed bottom-[-50px] right-[-50px] h-100 w-100 bg-purple-100 -z-10 filter blur-sm opacity-90 rounded-full animate-[move-up-down_8s_infinite_ease-in-out] [animation-delay:3s]"></div>
+
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
