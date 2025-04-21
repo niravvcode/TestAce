@@ -1,6 +1,6 @@
 import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
-import Hero from '../assets/hero7.png'
+import Hero from '../assets/Hero7.png'
 import { useNavigate } from 'react-router-dom';
 import GradientLogo from './GradientLogo';
 
